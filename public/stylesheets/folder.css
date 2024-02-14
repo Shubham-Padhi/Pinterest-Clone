@@ -1,0 +1,35 @@
+body{
+    background:url(https://images.unsplash.com/photo-1706346796362-5874ce24ae9b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background:url(https://images.unsplash.com/photo-1706346796362-5874ce24ae9b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border-radius: 10px;
+}
+
+
+/* Style form inputs */
+input[type="text"],
+input[type="file"],
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #7bc39c;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #94d796;
+    color: rgb(28, 23, 23);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #244a26;
+}
